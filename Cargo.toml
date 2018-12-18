@@ -1,0 +1,17 @@
+[package]
+name = "glew"
+version = "0.1.0"
+license = "BSD"
+description = "glew"
+authors = ["Rui <2221870259@qq.com>"]
+homepage = "https://github.com/nigels-com/glew"
+repository = "https://github.com/rust-cxx/glew-cxx.git"
+edition = "2018"
+build = "build.rs"
+
+[build-dependencies]
+cargo-cxx = "0.1"
+
+[lib]
+name = "glew_cxx"
+path = "lib.rs"
